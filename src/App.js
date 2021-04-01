@@ -1,10 +1,15 @@
-
+import React, { useState } from 'react'
+import data from './data'
+import List from './List'
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <main>
+      <section className="container">
+        <h3>0 birthdays today</h3>
+        <List />
+      </section>
+    </main>
   );
 }
 
